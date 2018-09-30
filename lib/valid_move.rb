@@ -17,7 +17,7 @@ def position_taken?(board, index)
   end
 end
 
-def on_board?(index)
+def on_board?(board, index)
   if index.to_i >= 0 && index.to_i <= 8
     true
   else
